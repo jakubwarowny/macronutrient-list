@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=!, initial-scale=1.0">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/foodList.css">
+    <link rel="stylesheet" href="css/searchFoodContainer.css">
+    <link rel="stylesheet" href="css/summary.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <title>Recieps</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="searchFood">
+            <div id="searchField">
+                <input class="inputSearch" type="text">
+                <form class="form1">
+                    <button id="btn">Search</button>
+                </form>
+            </div>
+            <form class="form">
+                <div id="showFoodDetails" class="divFood">
+                    <p class="foodName"></p>
+                    <p class="serving"></p>
+                    <p class="kcal"></p>
+                    <p class="carbo"></p>
+                    <p class="fat"></p>
+                    <p class="cholesterol"></p>
+                    <p class="protein"></p>
+                    <p class="potassium"></p>
+                    <p class="sodium"></p>
+                    <p class="sugar"></p>
+                    <p class="fiber"></p>
+                    <button id="btn" class="btnImport" style="display:none">Import</button>
+                </div>
+        </div>
+        </form>
+        <div id="listContainer">
+            <div id="listHeader">
+                <p>Food list:</p>
+            </div>
+            <div id="foodListHeader" style="display: flex;">
+                <p>name</p>
+                <p>serving</p>
+                <p>kcal</p>
+                <p>carbo</p>
+                <p>fat</p>
+                <p>chol</p>
+                <p>protein</p>
+                <p>pot</p>
+                <p>sodium</p>
+                <p>suagr</p>
+                <p>fiber</p>
+            </div>
+            <div class="foodList">
+            </div>
+        </div>
+    </div>
+
+    <div id="summary" class="summaryDiv" style="display: none">
+        <p class="summaryCalories"></p>
+        <p class="summaryCarbo"></p>
+        <p class="summaryFat"></p>
+        <p class="summaryCholesterol"></p>
+        <p class="summaryProtein"></p>
+        <p class="summaryPotassium"></p>
+        <p class="summarySodium"></p>
+        <p class="summarySugar"></p>
+        <p class="summaryFiber"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

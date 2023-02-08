@@ -1,0 +1,43 @@
+#searchFood {
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+    min-width: 280px;
+    min-height: 520px;
+}
+
+#searchField {
+    display: flex;
+    border-bottom: 2px solid black;
+    padding: 10px 0px 10px 5px;
+}
+
+#searchField > form {
+    margin-left: 5px;
+}
+
+#searchField > input {
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+#searchField > input:hover {
+    background-color: #969696;
+}
+
+#showFoodDetails {
+    margin-left: 5px;
+}
+
+#btn {
+    border: none;
+    border-radius: 5px;
+    background-color: #454545;
+    color: white;
+    font-family: 'Merienda', cursive;
+}
+
+#btn:hover {
+    background-color: black;
+}

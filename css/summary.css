@@ -1,0 +1,13 @@
+
+#summary {
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+#summary > p {
+    margin-right: 30px;
+}
+
+
